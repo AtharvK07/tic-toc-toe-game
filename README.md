@@ -32,8 +32,10 @@ To install the Tic Tac Toe game on your Android device, follow these steps:
 
 ## Screenshots
 
-![Gameplay](screenshots/gameplay.png)
-![WhatsApp Image 2021-06-11 at 10 50 03 PM (1)](https://github.com/AtharvK07/tic-toc-toe-game/assets/85340045/d9ada5a3-315a-4f9b-8b9b-3ec4ff626587)
+![Home](https://github.com/AtharvK07/tic-toc-toe-game/assets/85340045/3baa23aa-5a25-4d4d-913f-6df3d00d5691)
+![Players](https://github.com/AtharvK07/tic-toc-toe-game/assets/85340045/fbaae30d-ea66-45b7-8f04-0691ba5fd07a)
+![Winner](https://github.com/AtharvK07/tic-toc-toe-game/assets/85340045/b6cff9eb-39fe-4f80-b5b1-1ccfc006c1f9)
+
 
 
 ## Feedback and Support
