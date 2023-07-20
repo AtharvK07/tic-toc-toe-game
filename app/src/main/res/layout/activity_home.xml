@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343656"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage5"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn4"
+        android:layout_toLeftOf="@id/btn5"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage4"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn6"
+        android:layout_toRightOf="@id/btn5"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage6"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="8dp"
+        android:background="#F69e78"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn5"
+        android:layout_marginBottom="8dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="8dp"
+        android:background="#F69e78"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn5"
+        android:layout_marginTop="8dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="8dp"
+        android:layout_height="350dp"
+        android:background="#F69e78"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btn5"
+        android:layout_marginRight="-14dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="8dp"
+        android:layout_height="350dp"
+        android:background="#F69e78"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn5"
+        android:layout_marginLeft="-14dp">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textSize="15sp"></Button>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn8"
+        android:layout_below="@+id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage8"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn7"
+        android:layout_below="@+id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@id/btn8"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage7"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn9"
+        android:layout_below="@+id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/btn8"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage9"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/ScoreX"
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:text="@string/score_player_1_0"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ScoreY"
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:text="@string/score_player_2_0"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="66dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back" />
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn2"
+        android:layout_above="@+id/btn5"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage2"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn1"
+        android:layout_above="@+id/btn5"
+        android:layout_toLeftOf="@id/btn2"
+        android:layout_marginBottom="20dp"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonImage1"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn3"
+        android:layout_above="@+id/btn5"
+        android:layout_toRightOf="@id/btn2"
+        android:layout_marginBottom="20dp"
+        android:background="#343e56">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/buttonImage3"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

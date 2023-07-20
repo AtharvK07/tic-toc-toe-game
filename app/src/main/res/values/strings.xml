@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic Toc Toe Game</string>
+    <string name="score_player_1_0">Score Player 1:- 0</string>
+    <string name="score_player_2_0">Score Player 2:- 0</string>
+    <string name="todo">TODO</string>
+    <string name="reset">RESET</string>
+    <string name="tic_toc_toe_game">TIC TOC TOE GAME</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="atharv_kshirsagar">Atharv Kshirsagar</string>
+    <string name="play">Play</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="game_started">Game Started</string>
+</resources>
